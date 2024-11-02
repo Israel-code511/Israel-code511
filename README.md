@@ -7,7 +7,4 @@ we- 👋 Hi, I’m @Israel-code511
 - ⚡ Fun fact: ...
 
 <!--crate web -
-Israel-code511/Israel-code511 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
--create bot -->
-#!/bin/bashPAD="$1"; shiftFILE="$1"; shift[ -f "$FILE" ] || { echo "File $FILE not found"; exit 1; }[ "$PAD" -gt 1 ] || { echo "Invalid pad size $PAD"; exit 1; }size() {    stat -f %z $1}cursize=$(size $FILE)newsize=$(( ($b - 1) / $PAD * $PAD + $PAD))if [ "$newsize" -eq "$cursize" ]; then exit 0; fiif [ "$newsize" -gt "$cursize" ]; then    head -c $((newsize - cursize)) /dev/zero >> $FILE    exit 0fiexit 1
+Israel-code511/Israel-code511 is a ✨ special ✨ repository because its `README.md` (this file) appears on you
